@@ -1,0 +1,11 @@
+{
+  "name": "ps4-alexa",
+  "version": "1.0.0",
+  "description": "bridge between ps4 and alexa skill",
+  "main": "index.js",
+  "author": "raiman264",
+  "license": "MIT",
+  "dependencies": {
+    "ps4-waker": "^1.8.6"
+  }
+}

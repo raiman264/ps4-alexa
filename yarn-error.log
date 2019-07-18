@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/braulior/.nvm/versions/node/v11.2.0/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js add ps4-walker
+
+PATH: 
+  /Users/braulior/bin:/Users/braulior/Development/google-cloud-sdk/bin:/usr/local/sbin:/Users/braulior/.rvm/gems/ruby-2.3.0/bin:/Users/braulior/.rvm/gems/ruby-2.3.0@global/bin:/Users/braulior/.rvm/rubies/ruby-2.3.0/bin:/Users/braulior/Downloads/VisualSFM_OS_X_Installer-master/vsfm/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/braulior/.nvm/versions/node/v11.2.0/bin:/opt/apache-maven-3.3.9/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/bin:/usr/local/mysql/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/play:/opt/play:/Users/braulior/.rvm/bin:/Users/braulior/.rvm/bin:/Users/braulior/.rvm/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ps4-walker: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:66255:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:129397:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130369:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1098:12)
+      at process.internalTickCallback (internal/process/next_tick.js:72:19)
+
+npm manifest: 
+  {
+    "name": "ps4-alexa",
+    "version": "1.0.0",
+    "description": "bridge between ps4 and alexa skill",
+    "main": "index.js",
+    "author": "raiman264",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
