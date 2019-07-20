@@ -6,6 +6,7 @@
   "author": "raiman264",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.17.1",
     "ps4-waker": "^1.8.6"
   }
 }

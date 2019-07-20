@@ -10,17 +10,21 @@
 <body>
   <H1>open App</H1>
   <div class="apps">
-    <button class="app-icon">
+    <button class="app-icon" onclick="call('CUSA00129')">
       <img src="assets/images/netflix.jpg" alt="">
     </button>
-    <button class="app-icon">
+    <button class="app-icon" onclick="call('CUSA01015')">
       <img src="assets/images/youtube.png" alt="">
     </button>
   </div>
   <div class="ps">
-    <button>
+    <button onclick="press(['ps'])">
         <img src="assets/images/ps.jpg" alt="">
     </button>
   </div>
+  <div id="message" class="hidden">all is going very very good</div>
+  <div id="loader" class="hidden"><i class="load-icon"></i></div>
+
+  <script src="assets/functions.js"></script>
 </body>
 </html>
